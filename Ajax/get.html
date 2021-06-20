@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+  $("#idten").keyup(function(){
+     var tencasi=$(this).val();
+    $.get("get.php?ten="+tencasi,function(data,status){
+      $("#iddiv").html(data);  
+    });
+  });
+});
+</script>
+</head>
+<body>
+Tên cấn tìm:<input type="text" id="idten"></input>
+<br><br>
+<div id="iddiv"></div>
+</body>
+</html>

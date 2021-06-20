@@ -1,0 +1,49 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: grey;
+
+}
+a:hover{
+   color: whitesmoke; 
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right:80px;
+}
+.menu ul li{
+    display: inline-block;
+    padding : 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin-bottom: 0px 15px -20px;
+    width: 50px;
+}
+.menu img:hover{
+    opacity: 0;
+}
+/*slice*/
+.container1{
+    width: 1200px;
+    height: 500px;
+    background-color:lemonchiffon;
+    margin:auto;
+    
+}
+.banner{
+    width: 100%;
+    height: 450px;
+    overflow: hidden; /* tránh lỗi hình quá lớn đè lên nội dung các phần khác*/
+    padding-left: 15px;
+    box-sizing: border-box; /*cố định kích thước của slide*/
+ }
